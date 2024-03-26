@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7bJNppBohnJTPjre/mNcJxUSE0vaV5XYp1UJ3PeymIE=",
+  "Source": "JWTKeyGenerator",
+  "BasePath": "_content/JWTKeyGenerator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
