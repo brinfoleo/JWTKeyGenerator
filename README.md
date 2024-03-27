@@ -8,3 +8,4 @@ JWT Key Generator
 
 //JWT
 >dotnet add package Microsoft.AspNEtCore.Authentication.JWTBearer --version 7.0.0
+

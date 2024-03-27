@@ -6,7 +6,6 @@ using Microsoft.IdentityModel.Tokens;
 
 public static class Token
 {
-
     public static object Create(string _key, string role)
     {
         var key = Encoding.ASCII.GetBytes(_key);
@@ -17,7 +16,7 @@ public static class Token
             {
                 new Claim(ClaimTypes.Role, role)
             }),
-            
+
             Expires = DateTime.UtcNow.AddHours(3),
 
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
@@ -30,8 +29,24 @@ public static class Token
 
         return new
         {
-            token = torkenString
+            tokenq = torkenString
         };
     }
 
+    public static object TokenValidation(string _key, string MyToken)
+    {
+        var handler = new JwtSecurityTokenHandler();
+        var tokenS = handler.ReadToken(MyToken) as JwtSecurityToken;
+
+        return new
+        {
+            Header = tokenS.Header,
+            Subject = tokenS.Subject,
+            ValidTo = tokenS.ValidTo,
+            Actor = tokenS.Actor,
+            Audiences = tokenS.Audiences,
+            Claims = tokenS.Claims
+        };
+
+    }
 }

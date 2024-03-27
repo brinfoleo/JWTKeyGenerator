@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj": {}
+    "c:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj": {}
   },
   "projects": {
-    "C:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj": {
+    "c:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj",
+        "projectUniqueName": "c:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj",
         "projectName": "JWTKeyGenerator",
-        "projectPath": "C:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj",
+        "projectPath": "c:\\dev\\JWTKeyGenerator\\JWTKeyGenerator.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\JWTKeyGenerator\\obj\\",
+        "outputPath": "c:\\dev\\JWTKeyGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
