@@ -29,7 +29,7 @@ public static class Token
 
         return new
         {
-            tokenq = torkenString
+            token = torkenString
         };
     }
 
